@@ -19,6 +19,5 @@ func (app *application) routes() http.Handler {
 	router.HandlerFunc(http.MethodGet, "/v1/forecast", app.forecastHandler)
 
 	// CORS is overkill for this app, but I wanted to demonstrate at least one middleware
-	// return app.enableCORS(router)
-	return router
+	return app.enableCORS(router)
 }
