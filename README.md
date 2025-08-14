@@ -12,7 +12,7 @@ To run the application in development mode, run `make run/api`. Optional flags i
 
 ## Build
 
-To build the application, run `make build/api`. This will create an executable binary in the `bin/` directory. You can run it with `bin/api`.
+To build the application, run `make build/api`. This will create an executable binary in the `bin/` directory. You can run it with `./bin/api`.
 
 ## Example Usage
 

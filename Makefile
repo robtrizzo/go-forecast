@@ -6,6 +6,7 @@
 run/api:
 	go run ./cmd/api -port=4000 -cors-trusted-origins="http://localhost:4000" -weather-url="https://api.weather.gov"
 
+# in a real project, we would specify the target OS's we are building for
 ## build/api: build the cmd/api application
 .PHONY: build/api
 build/api:
